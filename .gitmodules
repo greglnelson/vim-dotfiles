@@ -19,3 +19,6 @@
 [submodule "bundle/haskellFold"]
 	path = bundle/haskellFold
 	url = git://github.com/Twinside/vim-haskellFold.git
+[submodule "bundle/haskellmode"]
+	path = bundle/haskellmode
+	url = git://github.com/lukerandall/haskellmode-vim.git
