@@ -16,3 +16,6 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/haskellFold"]
+	path = bundle/haskellFold
+	url = git://github.com/Twinside/vim-haskellFold.git
