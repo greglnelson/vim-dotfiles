@@ -2,7 +2,7 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " No Vi Compatibility. That just sucks.
-set nocompatible
+" set nocompatible
 
 " Convince Vim it can use 256 colors inside Gnome Terminal.
 " " Needs CSApprox plugin
@@ -111,8 +111,9 @@ au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw!
 " rewrite tabs into spaces
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 
+" Haskell
 let g:haddock_indexfiledir="~/.vim/"
+let g:haddock_indexfile="~/.vim/.haddock_index.vim"
 let g:haddock_browser="/usr/bin/chromium-browser"
 let g:haddock_docdir ="/usr/share/doc/ghc-doc/"
-" Haskell
 au BufEnter *.hs compiler ghc
